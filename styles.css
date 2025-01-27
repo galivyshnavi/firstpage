@@ -1,0 +1,216 @@
+ /* body {
+
+    background-image: url(https://images.unsplash.com/photo-1652135050669-6ac97b7cb7d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRmb2xpbyUyMGltYWdlfGVufDB8fDB8fHww);
+}
+
+.portfolio {
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: white;
+
+}
+
+.home {
+    margin-left: 500px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 1px;
+    width: fit-content;
+    color: white;
+}
+
+.blog {
+    margin-left: 50px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 1px;
+    width: fit-content;
+    color: white;
+}
+
+.pages {
+    margin-left: 50px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 1px;
+    width: fit-content;
+    color: white;
+}
+
+.gallery {
+    margin-left: 50px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 1px;
+    width: fit-content;
+    color: white;
+}
+
+.contact {
+    margin-left: 50px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 1px;
+    width: fit-content;
+    color: white;
+}
+
+.icon {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.hello {
+    text-transform: capitalize;
+    font-size: 80px;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 200px;
+    color: white;
+}
+
+.name {
+    text-transform: capitalize;
+    font-size: 80px;
+    margin-left: 30px;
+    color: white;
+}
+
+p {
+    text-transform: capitalize;
+    margin-left: 30px;
+    color: white;
+    width: 800px;
+}
+
+#button {
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 30px;
+    color: black;
+}
+
+a {
+    margin-left: 30px;
+    font-size: 20px;
+}  */
+ body {
+     background-color: rgb(4, 4, 31);
+ }
+
+ * {
+     padding: 0;
+     margin: 0px;
+ }
+
+ .container {
+     text-transform: capitalize;
+     display: flex;
+     justify-content: space-around;
+     gap: 30px;
+     margin-top: 20px;
+     font-size: 30px;
+     color: white;
+
+     a {
+         text-decoration: none;
+         font-size: 20px;
+         border: 2px solid aqua;
+         padding: 5px 10px;
+         border-radius: 5px;
+         color: white;
+     }
+ }
+
+ .main {
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+
+ .logos {
+     display: flex;
+     flex-direction: column;
+     border: 1px solid white;
+     margin-top: 300px;
+     margin-left: 100px;
+     font-size: 40px;
+     height: 120px;
+     border: none;
+     gap: 20px;
+     .linkedin{
+        color: rgb(16, 111, 188);
+     }
+     .instagram{
+        color: rgb(203, 12, 133);
+     }
+     .facebook{
+        color: blue;
+     }
+
+ }
+
+ .work {
+     margin-right: 400px;
+
+ }
+
+ .content {
+     border: 1px solid white;
+     color: white;
+     width: 600px;
+     margin-top: 200px;
+     margin-left: 60px;
+     border: none;
+
+     .heading1 {
+         text-transform: capitalize;
+         font-size: 70px;
+         font-weight: 15px;
+
+         span {
+             color: aqua;
+             text-decoration: underline;
+         }
+     }
+
+     .heading2 {
+         text-transform: capitalize;
+         font-size: 70px;
+         font-weight: 15px;
+         color: aqua;
+         margin-top: 20px;
+     }
+
+     p {
+         font-size: 20px;
+         text-transform: capitalize;
+         margin-top: 20px;
+     }
+
+     input {
+         margin-top: 20px;
+         font-size: 20px;
+         text-transform: capitalize;
+         border: 2px solid aqua;
+         background-color: rgb(4, 4, 31);
+         color: white;
+         padding: 5px 10px;
+
+     }
+ }
+
+ img {
+     width: 500px;
+     height: 300px;
+     border: 1px solid aqua;
+     border-radius: 300px;
+     margin-top: 180px;
+     padding: 5px 10px;
+ }
